@@ -1,0 +1,6 @@
+.temp
+
+/components
+/node_modules
+
+npm-debug.log

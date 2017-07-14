@@ -1,0 +1,25 @@
+{
+  "name": "f2f",
+  "version": "0.1.0",
+  "description": "Farsi to Finglish, a Persian transliterator",
+  "license": "MIT",
+  "author": {
+    "name": "Nasser Rafie",
+    "email": "contact@geminorum.ir",
+    "url": "http://geminorum.ir"
+  },
+  "homepage": "https://github.com/brothersincode/f2f#readme",
+  "bugs": {
+    "url": "https://github.com/brothersincode/f2f/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brothersincode/f2f"
+  },
+  "main": "lib/f2f.js",
+  "keywords": [
+    "persian",
+    "text"
+  ],
+  "dependencies": {}
+}
