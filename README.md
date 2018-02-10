@@ -8,6 +8,7 @@ A javascript port of [aminmarashi/onezero-f2f](https://github.com/aminmarashi/on
 [![NPM version](https://img.shields.io/npm/v/f2f.svg?style=flat-square)](https://www.npmjs.com/package/f2f)
 [![GitHub issues](https://img.shields.io/github/issues/brothersincode/f2f.svg?style=flat-square)](https://github.com/brothersincode/f2f/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/brothersincode/f2f/master/LICENSE)
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
 
 ## Install
 ``` bash
