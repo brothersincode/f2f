@@ -21,5 +21,7 @@
     "persian",
     "text"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "fingilish": "^1.0.0"
+  }
 }
