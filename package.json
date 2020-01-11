@@ -21,5 +21,19 @@
     "persian",
     "text"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "semistandard": "^14.2.0",
+    "stylelint": "^12.0.1"
+  },
+  "semistandard": {
+    "ignore": [
+      "/dist",
+      "*.min.js"
+    ],
+    "globals": [
+      "define"
+    ]
+  }
 }
