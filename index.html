@@ -9,17 +9,17 @@
 	</head>
 	<body>
 
-		<script>
-            console.log("How to use");
-            console.log("Add this paramerter at the end of url: ?word=سلام");
-            console.log("Like this: https://peymanmajidi.github.io/finglish_js/?word=سلام");
-
-			var url_string = window.location.href;
-			var url = new URL(url_string);
-            var word = url.searchParams.get("word");
-            var finglish = new f2f();
-            var result = finglish.simplef2f(word);
-            document.write(result);
-		</script>
+<script>
+     console.log("How to use");
+           console.log("Add this paramerter at the end of url: ?word=سلام");
+           console.log("Like this: https://peymanmajidi.github.io/finglish_js/?word=سلام");
+     var url_string = window.location.href;
+     var url = new URL(url_string);
+     var word = url.searchParams.get("word");
+     var finglish = new f2f();
+     var result = finglish.simplef2f(word);
+     document.body.innerHTML = ""
+     document.write(result);
+</script>
 	</body>
 </html>
