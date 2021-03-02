@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Finglish API</title>
+        <script src="lib/f2f.js"></script>
+	</head>
+	<body>
+
+<script>
+     console.log("How to use");
+           console.log("Add this paramerter at the end of url: ?word=سلام");
+           console.log("Like this: https://peymanmajidi.github.io/finglish_js/?word=سلام");
+     var url_string = window.location.href;
+     var url = new URL(url_string);
+     var word = url.searchParams.get("word");
+     var finglish = new f2f();
+     var result = finglish.simplef2f(word);
+     document.body.innerHTML = ""
+     document.write(result);
+</script>
+	</body>
+</html>
